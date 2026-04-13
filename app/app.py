@@ -5,11 +5,10 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-# Base directory where app.py exists
+# Resolve the trained model relative to the project root.
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# Model path (matches your existing structure)
-MODEL_PATH = os.path.join(BASE_DIR, "artifacts", "model.pkl")
+PROJECT_ROOT = os.path.dirname(BASE_DIR)
+MODEL_PATH = os.path.join(PROJECT_ROOT, "output", "model.pkl")
 
 # Load model
 model = joblib.load(MODEL_PATH)

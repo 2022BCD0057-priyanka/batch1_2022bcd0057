@@ -1,0 +1,27 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Build and OS files
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
+
+# Trained artifacts
+output/
+app/artifacts/
+*.pkl
+*.joblib
+
+# Secrets and local config
+.env
