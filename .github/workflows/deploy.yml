@@ -1,4 +1,4 @@
-name: Lab4 ML Automation (CI/CD)
+name: Lab Exam ML Automation (CI/CD)
 
 on:
   push:
@@ -115,10 +115,10 @@ jobs:
 
       - name: Job Summary (Deployment)
         run: |
-          echo "## Lab 4 Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "## Lab Exam Deployment Summary" >> $GITHUB_STEP_SUMMARY
 
           echo "**Name:** Priyanka Kumari" >> $GITHUB_STEP_SUMMARY
-          echo "**Roll No:** $batch1_2022bcd0057" >> $GITHUB_STEP_SUMMARY
+          echo "**Roll No:** $ROLL_NO" >> $GITHUB_STEP_SUMMARY
           echo "**Docker Image:** 2022bcd0057priyanka/${IMAGE_NAME}:latest" >> $GITHUB_STEP_SUMMARY
 
       - name: Update BEST_R2 variable

@@ -1,4 +1,4 @@
-# MLOps Lab 4 - Wine Quality Prediction
+# MLOps Lab Exam - Wine Quality Prediction
 
 **Author:** Priyanka Kumari  
 **Roll No:** 2022BCD0057
@@ -10,7 +10,7 @@ This project implements a complete MLOps pipeline for predicting wine quality us
 ## Project Structure
 
 ```
-MLOps_Lab4/
+MLOps_Lab_Exam/
 ├── Dockerfile                    # Docker configuration for containerization
 ├── requirements.txt              # Python dependencies
 ├── app/
@@ -98,7 +98,7 @@ Predicts wine quality based on physicochemical properties.
 
 1. **Clone/Download the project**
    ```bash
-   cd MLOps_Lab4
+   cd MLOps_Lab_Exam
    ```
 
 2. **Install dependencies**
@@ -204,4 +204,3 @@ The Dockerfile:
 - Create CI/CD pipeline
 - Add more sophisticated model evaluation techniques
 - Implement model retraining triggers
-
